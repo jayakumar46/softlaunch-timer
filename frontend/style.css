@@ -155,15 +155,7 @@ span{
     display: none;
 }
 
-
 /* RESPONSIVE 780PX */
-
-
-
-
-
-
-
 @media (max-width:780px){
     .social-links ul li{
         margin:auto;
@@ -183,7 +175,6 @@ span{
     }
    
 }
-
 
 @media (max-width:700px){
     html{
@@ -205,25 +196,6 @@ span{
         height: 50%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width:425px){
     html{
