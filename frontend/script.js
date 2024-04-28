@@ -14,6 +14,6 @@ function updateTime() {
   day.innerHTML = d < 10 ? "0" + d : d;
   hour.innerHTML = h < 10 ? "0" + h : h;
   mintute.innerHTML = m < 10 ? "0" + m : m;
-  seconds.innerHTML = s < 10 ? +"0" + s : s;
+  seconds.innerHTML = s < 10 ? "0" + s : s;
 }
 setInterval(updateTime, 1000);
