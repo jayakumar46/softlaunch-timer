@@ -4,7 +4,7 @@ function updateTime() {
   const mintute = document.querySelector(".minutes");
   const seconds = document.querySelector(".seconds");
   const CurrentYear = new Date().getFullYear();
-  const NeedDate = new Date(`may 1 ${CurrentYear} 00:00:00`);
+  const NeedDate = new Date(`may 13 ${CurrentYear} 00:00:00`);
   const CurrentDate = new Date();
   const targetDate = NeedDate - CurrentDate;
   const d = Math.floor(targetDate / 1000 / 60 / 60 / 24);
